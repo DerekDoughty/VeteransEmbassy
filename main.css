@@ -3,8 +3,13 @@ body {
     background-color: orange;
 }
 .home-body {
-	background: url('pictures/veterans embassy flag.jpg');
+	background: url('pictures/veteransEmbassyblurr.jpg');
 	background-size: cover;
+}
+.main-container {
+	width: 960px;
+	margin: 0 auto;
+
 }
 
 .panel-hero {
@@ -13,10 +18,9 @@ body {
 }
 
 .welcome-nav {
-	width: 960px;
 	text-align: center;
 	font-family: 'Courgette';
-	background-color: gray;
+	background-color: rgba(53, 53, 53, 0.6);
 	font-size: 12pt;
 	padding: 20px;
 	margin: 0 auto;
@@ -25,7 +29,7 @@ body {
 }
 
 nav > a {
-	color: white;
+	color: rgba(255, 255, 255, 0.8);
 	padding: 0px 50px 0px 50px;
 	text-decoration: none;
 
@@ -46,9 +50,12 @@ nav > a {
 .Welcome-home {
 	font-size: 1em;
 	margin-top: -10px;
+	text-shadow: 3px 3px rgba(184, 0, 0, 0.8);
+
 }
 
 .logo {
+	text-shadow: 3px 3px rgba(184, 0, 0, 0.8);
 	font-size: 3.5em;
 	display: block;
 	margin-top: 45px;
@@ -57,28 +64,32 @@ nav > a {
 .services {
 	position: absolute;	
 	color: white;
-	right: 150px;
+	right: 160px;
 	bottom: 100px;
 }
 
 .services .img {
 	width: 100px;
 	height: 100px;
-	border: 2px solid white;
+	border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .branches {
 	background-color: transparent;
 	text-align: center;
-	color: white;
-	border-top: 2px solid white;
-	border-bottom: 2px solid white;
-	padding: 12px 50px 12px 50px;
+	color: rgba(255, 255, 255, 0.8);
+	border-top: 2px solid rgba(255, 255, 255, 0.5);
+	border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+	padding: 12px 0px;
 	position: absolute;
-	right: 50px;
+  font-family: 'Courgette';
 	bottom: 25px;
-	width: 100%;
+	width: 960px;
 
+}
+.branches > span {
+	display: inline-block;
+	width: 20%;
 }
 
 
