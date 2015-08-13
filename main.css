@@ -1,0 +1,89 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: orange;
+}
+.home-body {
+	background: url('pictures/veterans embassy flag.jpg');
+	background-size: cover;
+}
+
+.panel-hero {
+	min-height: 200px;
+	margin: 0 auto;
+}
+
+.welcome-nav {
+	width: 960px;
+	text-align: center;
+	font-family: 'Courgette';
+	background-color: gray;
+	font-size: 12pt;
+	padding: 20px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+nav > a {
+	color: white;
+	padding: 0px 50px 0px 50px;
+	text-decoration: none;
+
+}
+
+.welcome-header {
+	width: 100%;
+	background-color: transparent;
+}
+
+.logo, .Welcome-home {
+	margin-left: 140px;
+	font-family: 'Oswald';
+	text-decoration: none;
+	color: white;
+}
+
+.Welcome-home {
+	font-size: 1em;
+	margin-top: -10px;
+}
+
+.logo {
+	font-size: 3.5em;
+	display: block;
+	margin-top: 45px;
+}
+
+.services {
+	position: absolute;	
+	color: white;
+	right: 150px;
+	bottom: 100px;
+}
+
+.services .img {
+	width: 100px;
+	height: 100px;
+	border: 2px solid white;
+}
+
+.branches {
+	background-color: transparent;
+	text-align: center;
+	color: white;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	padding: 12px 50px 12px 50px;
+	position: absolute;
+	right: 50px;
+	bottom: 25px;
+	width: 100%;
+
+}
+
+
+
+
+
+
+
