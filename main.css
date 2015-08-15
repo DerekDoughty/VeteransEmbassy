@@ -1,20 +1,21 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: orange;
 }
+
 .home-body {
 	background: url('pictures/veteransEmbassyblurr.jpg');
 	background-size: cover;
 }
-.main-container {
-	width: 960px;
-	margin: 0 auto;
 
+.page {
+	padding: 10px;
+	margin: 0 auto;
+	width: 960px;
 }
 
-.panel-hero {
-	min-height: 200px;
-	margin: 0 auto;
+.hero {
+	position: relative;
+	height: 650px;
 }
 
 .welcome-nav {
@@ -32,26 +33,6 @@ nav > a {
 	color: rgba(255, 255, 255, 0.8);
 	padding: 0px 50px 0px 50px;
 	text-decoration: none;
-
-}
-
-.welcome-header {
-	width: 100%;
-	background-color: transparent;
-}
-
-.logo, .Welcome-home {
-	margin-left: 140px;
-	font-family: 'Oswald';
-	text-decoration: none;
-	color: white;
-}
-
-.Welcome-home {
-	font-size: 1em;
-	margin-top: -10px;
-	text-shadow: 3px 3px rgba(184, 0, 0, 0.8);
-
 }
 
 .logo {
@@ -61,11 +42,23 @@ nav > a {
 	margin-top: 45px;
 }
 
+.logo, .Welcome-home {
+	font-family: 'Oswald';
+	text-decoration: none;
+	color: white;
+}
+
+.Welcome-home {
+	font-size: 1em;
+	margin-top: -10px;
+	text-shadow: 3px 3px rgba(184, 0, 0, 0.8);
+}
+
 .services {
 	position: absolute;	
 	color: white;
-	right: 160px;
-	bottom: 100px;
+	right: 0px;
+	bottom: 80px;
 }
 
 .services .img {
@@ -75,25 +68,81 @@ nav > a {
 }
 
 .branches {
-	background-color: transparent;
-	text-align: center;
 	color: rgba(255, 255, 255, 0.8);
 	border-top: 2px solid rgba(255, 255, 255, 0.5);
 	border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 	padding: 12px 0px;
 	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
   font-family: 'Courgette';
-	bottom: 25px;
-	width: 960px;
-
+	text-align: center;
 }
+
 .branches > span {
 	display: inline-block;
 	width: 20%;
 }
 
+/************************************
+Sign Up Page
+************************************/
 
+.sign-up {
+	color: rgba(255, 255, 255, 0.9);
+	text-shadow: 2px 2px rgba(184, 0, 0, 0.8);
+	height: 450px;
+	margin-top: 45px;
+	float: left;
+}
 
+.field {
+	margin:10px;
+}
+
+.title {
+	margin-right: 3px;
+	float: left;
+	width: 90px;
+
+}
+
+.title label {
+	display: block;
+	text-align: right;
+}
+
+.sign-up-picture {
+	overflow: hidden;
+	padding: 45px 0px 0px 100px;
+}
+
+/************************************
+Events Page
+************************************/
+
+.events {
+	background-color: pink;
+	height: 500px;
+	overflow: hidden;
+  margin-top: 20px;
+}
+.event-gallery > div {
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	background-color: gray;
+	vertical-align: top;
+	margin: 10px;
+	color: white;
+	text-align: center;
+}
+
+.event-gallery img {
+	height: 150px;
+	width: 200px;
+}
 
 
 
