@@ -90,32 +90,32 @@ Sign Up Page
 ************************************/
 
 .sign-up {
+	font-family: 'Oswald';
 	color: rgba(255, 255, 255, 0.9);
 	text-shadow: 2px 2px rgba(184, 0, 0, 0.8);
-	height: 450px;
+	height: 475px;
 	margin-top: 45px;
 	float: left;
 }
 
 .field {
-	margin:10px;
+	margin:15px;
 }
 
 .title {
 	margin-right: 3px;
 	float: left;
-	width: 90px;
-
+	width: 111px;
 }
 
 .title label {
 	display: block;
-	text-align: right;
+	text-align: left;
 }
 
 .sign-up-picture {
 	overflow: hidden;
-	padding: 45px 0px 0px 100px;
+	padding: 45px 0px 0px 122px;
 }
 
 /************************************
@@ -123,7 +123,6 @@ Events Page
 ************************************/
 
 .events {
-	background-color: pink;
 	height: 500px;
 	overflow: hidden;
   margin-top: 20px;
@@ -132,7 +131,8 @@ Events Page
 	display: inline-block;
 	float: left;
 	overflow: hidden;
-	background-color: gray;
+	background-color: rgba(53, 53, 53, 0.6);
+	font-family: 'Oswald';
 	vertical-align: top;
 	margin: 10px;
 	color: white;
@@ -140,8 +140,12 @@ Events Page
 }
 
 .event-gallery img {
-	height: 150px;
-	width: 200px;
+	height: 175px;
+	width: 220px;
+}
+
+.event-name {
+	padding: 14px;
 }
 
 
