@@ -1,12 +1,16 @@
 {
-	"User": [
-	
-		{
-			"UserName": "Derek Doughty",
-			"id": "1",
-			"email": "doughty326@gmail.com",
-			"password": "Ma$on12#",
-		},
-
-	]
+  "users": [
+    {
+      "userName": "Derek",
+      "id": "1",
+      "email": "Doughty326@gmail.com",
+      "password": "DerekLee"
+    },
+    {
+      "userName": "Ryan",
+      "email": "ryan@ryan.com",
+      "password": "ryanhasNiceHair",
+      "id": "52276cb8-fd40-48f8-b30d-33ef548db00c"
+    }
+  ]
 }
