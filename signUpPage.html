@@ -8,59 +8,59 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<script src="index.js"></script>
 </head>
-
 <body class="home-body">	
 	<div class="page">			
 		<div class="hero">
 			<header class="welcome-header">
 				<nav class="welcome-nav">
 					<a href="index.html">HOME</a>
-					<a href="suicide-line" id="suicide-hotline">SUICIDE HOTLINE</a>
+					<a href="suicideHotline.html" id="suicide-hotline">SUICIDE HOTLINE</a>
 					<a href="signUpPage.html">SIGN UP</a>
-					<a href="create-events">EVENTS</a>
-					<a href="events.html">SEE EVENTS</a>
+					<a href="events.html">EVENTS</a>
+					<a href="addEvents.html" class="hide">ADD EVENTS</a>
+					<a href="signIn.html">SIGN IN</a>
 				</nav>
 			</header>
 				
 			<aside>
 				<form class="sign-up">
-					<div class="field">
-						<div class="title">						
-							<label>First Name:</label>
+					<div class="sign-up-field">
+						<div class="sign-up-title">						
+							<label>Full Name:</label>
 						</div>
-						<div class="input">						
+						<div class="sign-up-input">						
 							<input type="text">
 						</div>
 					</div>
-					<div class="field">
-						<div class="title">						
-							<label>last Name:</label>
-						</div>
-						<div class="input" >						
-							<input type="text">
-						</div>
-					</div>
-					<div class="field">
-						<div class="title">						
+					<div class="sign-up-field">
+						<div class="sign-up-title">						
 							<label>Email:</label>
 						</div>
-						<div class="input">						
+						<div class="sign-up-input">						
 							<input type="text">
 						</div>
 					</div>
-					<div class="field">
-						<div class="title">					
-							<label>Phone #:</label>
+					<div class="sign-up-field">
+						<div class="sign-up-title">						
+							<label>Password:</label>
+						</div>
+						<div class="sign-up-input">						
+							<input type="Password">
+						</div>
+					</div>
+					<div class="sign-up-field">
+						<div class="sign-up-title">						
+							<label>Password:</label>
 						</div>
 						<div>						
-							<input class="input" type="text" placeholder="optional">
+							<input class="sign-up-input" type="password" placeholder="Confirm Password">
 						</div>
 					</div>	
 						<div class="interest">
 							<div>
 								<h3>If you wish to recieve Emails about upcoming<br>events  check some boxes, or create a <br>new adventure for vets to go on together!</h3>
 							</div>
-							<div>
+							<div class="sign-up-checkboxes">
 								<input type="checkbox" value="hiking"> Hiking<br>
 								<input type="checkbox" value="camping"> Camping<br>
 								<input type="checkbox" value="kayaking"> Kayaking<br>
@@ -71,12 +71,11 @@
 								<input type="checkbox" value="studying"> Studying<br>
 							</div>
 						</div>	
+						<button class="sign-up-button" type="submit">SUBMIT</button>
 				</form>		
 			</aside>
 			<div class="sign-up-picture">
-				<img src="pictures/clearingRoomsBW.jpg">
 			</div>
-		
 			<div class="branches">
 				<span>U.S. AIRFORCE</span>
 				<span>U.S. ARMY</span>

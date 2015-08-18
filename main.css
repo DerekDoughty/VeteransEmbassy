@@ -84,6 +84,79 @@ nav > a {
 	display: inline-block;
 	width: 20%;
 }
+/************************************
+Suicide Hotline page
+************************************/
+.suicide-hotline-logo, .please-call {
+	font-family: 'Oswald';
+	text-decoration: none;
+	color: white;
+}
+
+.suicide-hotline-logo {
+	text-shadow: 3px 3px rgba(184, 0, 0, 0.8);
+	font-size: 3.5em;
+	display: block;
+	margin-top: 45px;
+}
+
+.please-call {
+	font-size: 1em;
+	margin-top: -67px;
+	text-shadow: 3px 3px rgba(184, 0, 0, 0.8);
+}
+
+.hotline-numbers {
+	color: white;
+	font-size: 1em;
+	text-shadow: 3px 3px rgba(184, 0, 0, 0.8);
+	width: 375px;
+	float: left;
+}
+.suicide-hotline-picture {
+	overflow: hidden;
+	padding: 6px 0px 0px 125px;
+}
+
+.suicide-hotline-picture img {
+	width: 355px;
+	height: 510px;
+}
+
+/************************************
+SignIn page
+************************************/
+
+.signIn {
+	font-family: 'Oswald';
+	color: rgba(255, 255, 255, 0.9);
+	text-shadow: 2px 2px rgba(184, 0, 0, 0.8);
+	height: 575px;
+	margin-top: 10px;
+	float: left;
+	/*overflow: hidden;*/
+}
+
+.signIn-input {
+	color: black;
+}
+
+.signIn-title {
+	margin-right: 3px;
+	float: left;
+	width: 111px;
+}
+
+.signIn-title label {
+	text-align: left;
+}
+
+.signIn-picture {
+	overflow: hidden;
+	padding: 20px 0px 0px 113px;
+	margin-left: 400px;
+	margin-top: -175px;
+}
 
 /************************************
 Sign Up Page
@@ -93,29 +166,48 @@ Sign Up Page
 	font-family: 'Oswald';
 	color: rgba(255, 255, 255, 0.9);
 	text-shadow: 2px 2px rgba(184, 0, 0, 0.8);
-	height: 475px;
-	margin-top: 45px;
+	height: 575px;
+	margin-top: 10px;
 	float: left;
 }
 
-.field {
+.sign-up-field {
 	margin:15px;
+	overflow: hidden;
+	width: 300px;
 }
 
-.title {
+.sign-up-title {
 	margin-right: 3px;
 	float: left;
 	width: 111px;
 }
 
-.title label {
+.sign-up-title label {
 	display: block;
 	text-align: left;
 }
 
 .sign-up-picture {
 	overflow: hidden;
-	padding: 45px 0px 0px 122px;
+	padding: 30px 0px 0px 120px;
+	height: 470px;
+	width: 325px;
+	background-image: url('pictures/IWantYouBW.png');
+	background-size: cover;
+	margin-top: 10px;
+	margin-left: 425px;
+}
+
+.sign-up-button {
+	font-family: 'Oswald';
+	margin: 10px 0px;
+	border-radius: 3px;
+	text-shadow: 2px 2px rgba(184, 0, 0, 0.8);
+}
+
+.sign-up-input {
+	color: black;
 }
 
 /************************************
@@ -125,8 +217,9 @@ Events Page
 .events {
 	height: 500px;
 	overflow: hidden;
-  margin-top: 20px;
+  margin-top: 15px;
 }
+
 .event-gallery > div {
 	display: inline-block;
 	float: left;
@@ -148,6 +241,54 @@ Events Page
 	padding: 14px;
 }
 
+.hide {
+	/*display: none;*/
+}
 
+/************************************
+Add Event Page
+************************************/
 
+.add-event {
+	font-family: 'Oswald';
+	color: rgba(255, 255, 255, 0.9);
+	text-shadow: 2px 2px rgba(184, 0, 0, 0.8);
+	height: 575px;
+	width: 400px;
+	float: left;
+}
 
+.add-field {
+	margin-top: 15px;
+	overflow: hidden;
+	width: 500px;
+}
+
+.add-title {
+	margin-right: 3px;
+	float: left;
+	width: 111px;
+}
+
+.add-title label {
+	display: block;
+	text-align: left;
+}
+
+.add-input {
+	color: black;
+}
+
+.event-details-input {
+	width: 300px;
+	height: 150px;
+	color: black;
+}
+.add-events-picture {
+	margin-top: -152px;
+}
+.add-events-picture img {
+	width: 385px;
+	height: 510px;
+	padding: 0px 0px 0px 115px;
+}
