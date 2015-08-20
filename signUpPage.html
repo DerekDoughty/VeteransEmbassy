@@ -6,6 +6,8 @@
 	<link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans|Courgette:400,300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>	
 	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="index.js"></script>
 </head>
@@ -16,21 +18,21 @@
 				<nav class="welcome-nav">
 					<a href="index.html">HOME</a>
 					<a href="suicideHotline.html" id="suicide-hotline">SUICIDE HOTLINE</a>
-					<a href="signUpPage.html">SIGN UP</a>
+					<a href="signUpPage.html" id="sign-up-nav">SIGN UP</a>
 					<a href="events.html">EVENTS</a>
-					<a href="addEvents.html" class="hide">ADD EVENTS</a>
+					<a href="addEvents.html" class="hide" id="add-event">ADD EVENTS</a>
 					<a href="signIn.html">SIGN IN</a>
 				</nav>
 			</header>
 				
 			<aside>
-				<form class="sign-up">
+				<form id="sign-up" class="sign-up">
 					<div class="sign-up-field">
 						<div class="sign-up-title">						
 							<label>Full Name:</label>
 						</div>
 						<div class="sign-up-input">						
-							<input type="text">
+							<input type="text" id="fullName">
 						</div>
 					</div>
 					<div class="sign-up-field">
@@ -38,7 +40,7 @@
 							<label>Email:</label>
 						</div>
 						<div class="sign-up-input">						
-							<input type="text">
+							<input type="text" id="email">
 						</div>
 					</div>
 					<div class="sign-up-field">
@@ -46,7 +48,7 @@
 							<label>Password:</label>
 						</div>
 						<div>						
-							<input class="sign-up-input" type="password" placeholder="Confirm Password">
+							<input class="sign-up-input" type="password" placeholder="Confirm Password" id="password">
 						</div>
 					</div>	
 						<div class="interest">
@@ -64,7 +66,7 @@
 								<input type="checkbox" value="studying"> Studying<br>
 							</div>
 						</div>	
-						<button class="sign-up-button" type="submit">SUBMIT</button>
+						<button id="sign-up-button" class="sign-up-button" type="submit">SUBMIT</button>
 				</form>		
 			</aside>
 			<div class="sign-up-picture">

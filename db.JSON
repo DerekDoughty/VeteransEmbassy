@@ -2,15 +2,69 @@
   "users": [
     {
       "userName": "Derek",
-      "id": "1",
+      "id": 1,
       "email": "Doughty326@gmail.com",
       "password": "DerekLee"
     },
     {
-      "userName": "Ryan",
-      "email": "ryan@ryan.com",
-      "password": "ryanhasNiceHair",
-      "id": "52276cb8-fd40-48f8-b30d-33ef548db00c"
+      "userName": "kevin",
+      "email": "kevin.com",
+      "password": "kal;djfal;",
+      "id": 2
+    },
+    {
+      "userName": "Tammy Doughty",
+      "email": "TDoughty@aerotek.com",
+      "password": "Doughty",
+      "id": 3
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "typeId": 1,
+      "dateAndTime": "22nd August 2015 5am",
+      "hostedBy": "Derek Lee Doughty",
+      "eventDescription": "hiking",
+      "eventTitle": "Camelback Mountain",
+      "where": "trail head"
+    },
+    {
+      "id": 2,
+      "typeId": 1,
+      "dateAndTime": "25nd August 2015 5am",
+      "hostedBy": "G Dubya",
+      "eventDescription": "hiking up yo momma",
+      "eventTitle": "Hiking",
+      "where": "Yo mommas house"
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "typeId": 1,
+      "dateAndTime": "todayo",
+      "hostedBy": "derek",
+      "eventDescription": "make it rain",
+      "eventTitle": "strip club",
+      "where": "christies",
+      "id": 6
+    }
+  ],
+  "types": [
+    {
+      "type": "hiking",
+      "id": 1
+    },
+    {
+      "type": "hiking",
+      "id": 2
     }
   ]
 }
