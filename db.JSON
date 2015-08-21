@@ -21,40 +21,31 @@
   ],
   "events": [
     {
-      "id": 1,
       "typeId": 1,
-      "dateAndTime": "22nd August 2015 5am",
+      "dateAndTime": "1 sept 5 am",
       "hostedBy": "Derek Lee Doughty",
-      "eventDescription": "hiking",
-      "eventTitle": "Camelback Mountain",
-      "where": "trail head"
+      "eventDescription": "Just the easy trail for a warm up.",
+      "eventTitle": "Camelback Hike",
+      "where": "Main Trail Head",
+      "id": 1
     },
     {
-      "id": 2,
       "typeId": 1,
-      "dateAndTime": "25nd August 2015 5am",
-      "hostedBy": "G Dubya",
-      "eventDescription": "hiking up yo momma",
-      "eventTitle": "Hiking",
-      "where": "Yo mommas house"
+      "dateAndTime": "22 august 6am",
+      "hostedBy": "Tammy Lynn",
+      "eventDescription": "We are gonna race to the top.  Be hydrated!",
+      "eventTitle": "Squaw Peak",
+      "where": "West Parking Lot Gazebo",
+      "id": 2
     },
     {
+      "typeId": 1,
+      "dateAndTime": "9 october 2015",
+      "hostedBy": "Jason Griffin",
+      "eventDescription": "This will be a run done as buddy teams. Find a veteran Partner and lets hit the trails",
+      "eventTitle": "South MTN hills Run",
+      "where": "Sunset Trail",
       "id": 3
-    },
-    {
-      "id": 4
-    },
-    {
-      "id": 5
-    },
-    {
-      "typeId": 1,
-      "dateAndTime": "todayo",
-      "hostedBy": "derek",
-      "eventDescription": "make it rain",
-      "eventTitle": "strip club",
-      "where": "christies",
-      "id": 6
     }
   ],
   "types": [

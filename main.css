@@ -5,6 +5,8 @@ body {
 .home-body {
 	background: url('pictures/veteransEmbassyblurr.jpg');
 	background-size: cover;
+	background-color: black;
+  background-repeat: no-repeat;
 }
 
 .page {
@@ -14,8 +16,9 @@ body {
 }
 
 .hero {
+	overflow: hidden;
 	position: relative;
-	height: 650px;
+	min-height: 510px;
 }
 
 .welcome-nav {
@@ -57,7 +60,7 @@ nav > a {
 .services {
 	position: absolute;	
 	color: white;
-	right: 0px;
+	right: 162px;
 	bottom: 80px;
 }
 
@@ -73,8 +76,7 @@ nav > a {
 	border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 	padding: 12px 0px;
 	position: absolute;
-	left: 0px;
-	right: 0px;
+	width: 960px;
 	bottom: 0px;
   font-family: 'Courgette';
 	text-align: center;
@@ -109,19 +111,16 @@ Suicide Hotline page
 .hotline-numbers {
 	color: white;
 	font-size: 1em;
-	/*text-shadow: 1px 1px rgba(187, 0, 0, 0.8);*/
 	text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
 	width: 375px;
 	float: left;
 }
-.suicide-hotline-picture {
-	overflow: hidden;
-	padding: 6px 0px 0px 125px;
-}
 
 .suicide-hotline-picture img {
-	width: 355px;
+	width: 357px;
 	height: 510px;
+	margin-top: -144px;
+	padding-left: 112px;
 }
 
 /************************************
@@ -151,10 +150,10 @@ SignIn page
 }
 
 .signIn-picture {
-	overflow: hidden;
+	/*overflow: hidden;*/
 	padding: 20px 0px 0px 113px;
-	margin-left: 400px;
-	margin-top: -175px;
+	margin-left: 415px;
+	margin-top: -163px;
 }
 
 /************************************
@@ -189,12 +188,12 @@ Sign Up Page
 
 .sign-up-picture {
 	overflow: hidden;
-	padding: 30px 0px 0px 120px;
+	padding: 16px 0px 0px 113px;
 	height: 470px;
 	width: 325px;
 	background-image: url('pictures/IWantYouBW.png');
 	background-size: cover;
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-left: 425px;
 }
 
@@ -216,7 +215,7 @@ Events Page
 .events {
 	height: 500px;
 	overflow: hidden;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .event-gallery > div {
@@ -285,12 +284,12 @@ Add Event Page
 }
 
 .add-events-picture {
-	margin-top: -152px;
+	margin-top: -125px;
 }
 
 .add-events-picture img {
-	width: 385px;
-	height: 510px;
+	width: 380px;
+	height: 478px;
 	padding: 0px 0px 0px 115px;
 }
 
@@ -312,13 +311,12 @@ Hiking Page
 	height: 232px;
 	width: 460px;
 	margin-top: 10px;
-	overflow: hidden;
 	padding:8px;
+	display: inline-block;
 }
 
 .hiking-media-obj > img {
 	float: left;
-	overflow: hidden;
 }
 
 .hiking-details {

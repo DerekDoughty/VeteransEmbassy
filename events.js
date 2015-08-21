@@ -17,10 +17,28 @@ var hikeInfo = {
 	var hiking = $('#hiking-template').html()
 	var hikingTmpl = Handlebars.compile(hiking)
 
+var EventModel = Backbone.Model.extend({
+	url:function(){
+		var baseURL = 'http://localhost:3000/events'
 
-$.get('http://localhost:3000/types/1/events')
-	.done(function (hikingEvents){
+		if (!this.isNew()) {
+
+  		baseUrl = baseUrl + this.id
+
+  	}
+  	return baseUrl + '?typeId=1'
+  }
+})
+var EventCollection = Backbone.Collection.extend({
+  url: 'http://localhost:3000/events',
+	model: EventModel
+})
+
+var events = new EventCollection
+events.fetch()
+.done(function (hikingEvents){
 		$('main').append(hikingTmpl(hikingEvents))
 		console.log(hikingEvents)
+
 	})
 })

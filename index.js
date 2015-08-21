@@ -34,6 +34,13 @@ $('.add-event').on('submit', function(){
 		}
 		console.log(data)
 	$post('http://localhost:3000/events', data)
+	.done(function (events){
+			
+		window.location.href = 'http://localhost:8080/events.html'
+	})
+	.fail(function(){
+		alert('You suck')
+	})
 	return false
 })
 
@@ -41,7 +48,10 @@ $('.add-event').on('submit', function(){
 
 	
 
-
+//add the add events nav on the actual events list page.
+//fix the footer to the events list page.
+//create extra JS pages for the additional events (if i have time)
+//Go through the whole site and nit pick the small stuff.
 
 //once they are signed in use window.location and give it the
 //name of the html location.
