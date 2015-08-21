@@ -9,6 +9,9 @@ $('#sign-up').on('submit', function(){
 		password: $('#password').val(),		
 	})
 		.done(function (user){
+			$('#fullName').val('')
+			$('#email').val('')
+			$('#password').val('')
 			
 			window.location.href = 'http://localhost:8080/events.html'
 			
@@ -17,7 +20,7 @@ $('#sign-up').on('submit', function(){
 			})
 		})
 		.fail(function(){
-			alert('fucked up')
+			alert('Sign up failed')
 		})
  	return false
 })
@@ -35,14 +38,27 @@ $('.add-event').on('submit', function(){
 		console.log(data)
 	$post('http://localhost:3000/events', data)
 	.done(function (events){
+		$('#when').val('')
+		$('#hostedBy').val('')
+		$('#eventDescription').val('')
+		$('#eventTitle').val('')
+		$('#where').val('')
 			
 		window.location.href = 'http://localhost:8080/events.html'
 	})
 	.fail(function(){
-		alert('You suck')
+		alert('add event failed')
 	})
 	return false
 })
+
+$('.sign-in').on('submit', function(event){
+	event.preventDefault()
+
+	window.location.href = '/events.html'
+})
+
+	
 
 })
 

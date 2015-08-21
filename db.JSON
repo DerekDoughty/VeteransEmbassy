@@ -17,6 +17,24 @@
       "email": "TDoughty@aerotek.com",
       "password": "Doughty",
       "id": 3
+    },
+    {
+      "userName": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "userName": "Chuck Norris",
+      "email": "awesome@chuckNorris.com",
+      "password": "Norris",
+      "id": 5
+    },
+    {
+      "userName": "Bob Newhart",
+      "email": "BobbyBoy@gmail.com",
+      "password": "BOBBY",
+      "id": 6
     }
   ],
   "events": [
@@ -46,6 +64,42 @@
       "eventTitle": "South MTN hills Run",
       "where": "Sunset Trail",
       "id": 3
+    },
+    {
+      "typeId": 1,
+      "dateAndTime": "1 October 2015 at 7am",
+      "hostedBy": "Andrew Murphy",
+      "eventDescription": "Bring another veteran and lets run up Camelback.",
+      "eventTitle": "Trail Run up Camelback",
+      "where": "Camelback Trailhead",
+      "id": 4
+    },
+    {
+      "typeId": 1,
+      "dateAndTime": "19 Sept 2015 @ 900 am",
+      "hostedBy": "Donald Trump",
+      "eventDescription": "We are just gonna hike some easy trails and get to know our fellow veterans.  We can plan for a bigger hike soon.",
+      "eventTitle": "Canyon Lake Trails",
+      "where": "Canyon Lake S. Boat Ramp",
+      "id": 5
+    },
+    {
+      "typeId": 1,
+      "dateAndTime": "",
+      "hostedBy": "",
+      "eventDescription": "",
+      "eventTitle": "",
+      "where": "",
+      "id": 6
+    },
+    {
+      "typeId": 1,
+      "dateAndTime": "6 October 2015 @ 9 am",
+      "hostedBy": "George Bush",
+      "eventDescription": "Just a fun run with some veterans.  I'm new to valley and wan to meet some like minded hiking enthusiasts.",
+      "eventTitle": "Papago Park MTN run",
+      "where": "Woodglenn park gazebo",
+      "id": 7
     }
   ],
   "types": [

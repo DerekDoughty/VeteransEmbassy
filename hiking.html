@@ -16,33 +16,23 @@
 </head>
 <body class="home-body">	
 	<div class="page">			
-		<div class="hero">
+		<div class="event-hero">
 			<header class="welcome-header">
 				<nav class="welcome-nav">
 					<a href="index.html">HOME</a>
 					<a href="suicideHotline.html" id="suicide-hotline">SUICIDE HOTLINE</a>
 					<!-- <a href="signUp.html" id="sign-up-nav">SIGN UP</a> -->
 					<a href="events.html">EVENTS</a>
-					<a href="addEvents.html" class="hide" id="add-event">ADD EVENTS</a>
+					<a href="addEvents.html" id="add-event">ADD EVENTS</a>
 					<!-- <a href="signIn.html">SIGN IN</a> -->
 				</nav>
 			</header>
-			<main>
+			<div class="hiking-hero-picture">
+				<!-- <img src="pictures/OrganPipe1.jpg"> -->
+			</div>
+	</div>
+			<main class="hiking-events">
 				<!-- <div class="hiking-handlebars"> -->
-					<script id="hiking-template" type="text/x-handlebars-template">
-					{{#each this}}
-					<div class="hiking-media-obj">
-						<img src="pictures/hikerSign.jpg">
-						<div class="hiking-details">
-							<h2>{{eventTitle}}</h2>
-							<p>{{hostedBy}}</p>
-							<p>{{when}}</p>
-							<p>{{where}}</p>
-							<p>{{eventDescription}}</p>
-						</div>
-					</div>
-					{{/each}}
-					</script>
 				<!-- </div> -->
 			</main>
 		<div class="branches">	
@@ -52,7 +42,20 @@
 			<span>U.S. NAVY</span>	
 		</div>
 
-	</div>
+					<script id="hiking-template" type="text/x-handlebars-template">
+					{{#each this}}
+					<div class="hiking-media-obj">
+						<img src="pictures/hikerSign.jpg">
+						<div class="hiking-details">
+							<h2>{{eventTitle}}</h2>
+							<p>HOST: {{hostedBy}}</p>
+							<p>WHEN: {{when}}</p>
+							<p>WHERE: {{where}}</p>
+							<p>EVENT: {{eventDescription}}</p>
+						</div>
+					</div>
+					{{/each}}
+					</script>
 	<script src="events.js"></script>
 </body>
 </html>
