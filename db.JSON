@@ -35,6 +35,18 @@
       "email": "BobbyBoy@gmail.com",
       "password": "BOBBY",
       "id": 6
+    },
+    {
+      "userName": "Jack Doughty",
+      "email": "Jack@Doughty.com",
+      "password": "MaSon",
+      "id": 7
+    },
+    {
+      "userName": "ryan",
+      "email": "rmedina423",
+      "password": "chancho1",
+      "id": 8
     }
   ],
   "events": [
@@ -85,21 +97,30 @@
     },
     {
       "typeId": 1,
-      "dateAndTime": "",
-      "hostedBy": "",
-      "eventDescription": "",
-      "eventTitle": "",
-      "where": "",
-      "id": 6
-    },
-    {
-      "typeId": 1,
       "dateAndTime": "6 October 2015 @ 9 am",
       "hostedBy": "George Bush",
       "eventDescription": "Just a fun run with some veterans.  I'm new to valley and wan to meet some like minded hiking enthusiasts.",
       "eventTitle": "Papago Park MTN run",
       "where": "Woodglenn park gazebo",
       "id": 7
+    },
+    {
+      "typeId": 1,
+      "dateAndTime": "october 2nd at 5am",
+      "hostedBy": "Jack Bear",
+      "eventDescription": "Just a two mile hike for fun with friends.",
+      "eventTitle": "Superstition hike",
+      "where": "Main trail head",
+      "id": 8
+    },
+    {
+      "typeId": 1,
+      "dateAndTime": "thurs: 10 - 12",
+      "hostedBy": "Ryan M.",
+      "eventDescription": "Final presentations... don't cry or soil ya self",
+      "eventTitle": "PARTY TIME!!",
+      "where": "Rockit Bootcamp",
+      "id": 9
     }
   ],
   "types": [

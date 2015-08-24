@@ -37,8 +37,14 @@ var EventCollection = Backbone.Collection.extend({
 var events = new EventCollection
 events.fetch()
 .done(function (hikingEvents){
-		$('main').append(hikingTmpl(hikingEvents))
+		$('main').append(hikingTmpl(hikingEvents.reverse()))
 		console.log(hikingEvents)
 
 	})
 })
+
+
+//get the template working. the button should be a form
+// so when i click on it, it will submit. 
+// it will perform and Jquery event (prevent default) do an ajax
+// with an http delete method. $.ajax url and the method. (.delete)
