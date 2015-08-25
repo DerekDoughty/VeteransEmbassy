@@ -52,48 +52,21 @@
   "events": [
     {
       "typeId": 1,
-      "dateAndTime": "22 august 6am",
-      "hostedBy": "Tammy Lynn",
-      "eventDescription": "We are gonna race to the top.  Be hydrated!",
-      "eventTitle": "Squaw Peak",
-      "where": "West Parking Lot Gazebo",
+      "dateAndTime": "0700hrs 29 aug",
+      "hostedBy": "Derek Lee Doughty",
+      "eventDescription": "We are gonna meet up at the Tempe Beach park entrance and then walk over to \"A\" Mountain from there to get our hike on!",
+      "eventTitle": "\"A\" MOUNTAIN",
+      "where": "Tempe beach Park",
+      "id": 1
+    },
+    {
+      "typeId": 2,
+      "dateAndTime": "1230-330 august 31st",
+      "hostedBy": "Derek Lee",
+      "eventDescription": "We are gonna meet up to code and have some fun. If you are currently working on a project and need some help we can work on it together.",
+      "eventTitle": "Rockit coding",
+      "where": "1601 Fountainhead Pkwy",
       "id": 2
-    },
-    {
-      "typeId": 1,
-      "dateAndTime": "9 october 2015",
-      "hostedBy": "Jason Griffin",
-      "eventDescription": "This will be a run done as buddy teams. Find a veteran Partner and lets hit the trails",
-      "eventTitle": "South MTN hills Run",
-      "where": "Sunset Trail",
-      "id": 3
-    },
-    {
-      "typeId": 1,
-      "dateAndTime": "1 October 2015 at 7am",
-      "hostedBy": "Andrew Murphy",
-      "eventDescription": "Bring another veteran and lets run up Camelback.",
-      "eventTitle": "Trail Run up Camelback",
-      "where": "Camelback Trailhead",
-      "id": 4
-    },
-    {
-      "typeId": 1,
-      "dateAndTime": "19 Sept 2015 @ 900 am",
-      "hostedBy": "Donald Trump",
-      "eventDescription": "We are just gonna hike some easy trails and get to know our fellow veterans.  We can plan for a bigger hike soon.",
-      "eventTitle": "Canyon Lake Trails",
-      "where": "Canyon Lake S. Boat Ramp",
-      "id": 5
-    },
-    {
-      "typeId": 1,
-      "dateAndTime": "6 October 2015 @ 9 am",
-      "hostedBy": "George Bush",
-      "eventDescription": "Just a fun run with some veterans.  I'm new to valley and wan to meet some like minded hiking enthusiasts.",
-      "eventTitle": "Papago Park MTN run",
-      "where": "Woodglenn park gazebo",
-      "id": 7
     }
   ],
   "types": [
@@ -102,7 +75,7 @@
       "id": 1
     },
     {
-      "type": "hiking",
+      "type": "computerCoding",
       "id": 2
     }
   ]

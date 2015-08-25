@@ -6,6 +6,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans|Courgette:400,300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
 	<script src="/bower_components/handlebars/handlebars.js"></script>
 	<script src="/bower_components/jquery/dist/jquery.js"></script>
 	<script src="/bower_components/lodash/lodash.js"></script>
@@ -25,11 +26,11 @@
 					<!-- <a href="signIn.html">SIGN IN</a> -->
 				</nav>
 			</header>
-			<div class="hiking-hero-picture">
+			<div class="coding-hero-picture">
 				<!-- <img src="pictures/OrganPipe1.jpg"> -->
 			</div>
 	</div>
-			<main class="hiking-events">
+			<main class="coding-events">
 				<!-- <div class="hiking-handlebars"> -->
 				<!-- </div> -->
 			</main>
@@ -40,11 +41,11 @@
 			<span>U.S. NAVY</span>	
 		</div>
 
-					<script id="hiking-template" type="text/x-handlebars-template" class"created-events">
+					<script id="coding-template" type="text/x-handlebars-template" class"created-events">
 					{{#each this}}
-					<div class="hiking-media-obj">
-						<img src="pictures/hikerSign.jpg">
-						<div class="hiking-details">
+					<div class="coding-media-obj">
+						<img src="pictures/computerSign.jpg">
+						<div class="coding-details">
 							<h2>{{eventTitle}}</h2>
 							<p>HOST: {{hostedBy}}</p>
 							<p>WHEN: {{dateAndTime}}</p>
@@ -52,12 +53,12 @@
 							<p>EVENT: {{eventDescription}}</p>
 							<form class="delete-events">
 							<input type="hidden" value="{{id}}">
-								<button type="submit" class="hiking-delete-button">DELETE</button>
+								<button type="submit" class="coding-delete-button">DELETE</button>
 							</form>	
 						</div>
 					</div>
 					{{/each}}
 					</script>
-	<script src="hikingEvents.js"></script>
+	<script src="codingEvents.js"></script>
 </body>
 </html>

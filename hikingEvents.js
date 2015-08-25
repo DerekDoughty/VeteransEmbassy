@@ -13,7 +13,7 @@ var hikeInfo = {
 	var hiking = $('#hiking-template').html()
 	var hikingTmpl = Handlebars.compile(hiking)
 
-var EventModel = Backbone.Model.extend({
+var HikingEventModel = Backbone.Model.extend({
 	url:function(){
 		var baseURL = 'http://localhost:3000/events'
 
@@ -25,23 +25,21 @@ var EventModel = Backbone.Model.extend({
   	return baseUrl + '?typeId=1'
   }
 })
-var EventCollection = Backbone.Collection.extend({
-  url: 'http://localhost:3000/events',
-	model: EventModel
+var HikingEventCollection = Backbone.Collection.extend({
+  url: 'http://localhost:3000/type/1/events',
+	model: HikingEventModel
 })
 
-var events = new EventCollection
+var events = new HikingEventCollection
 events.fetch()
 .done(function (hikingEvents){
 		$('main').append(hikingTmpl(hikingEvents.reverse()))
-		console.log(hikingEvents)
 
 	})
 
 $('.hiking-events').on('submit','.delete-events', function(event){
 	event.preventDefault()	
 	var deleteEvent = $(this).find('input').val()
-	console.log(deleteEvent)
 	$.ajax({
 		url: "http://localhost:3000/events/" + deleteEvent,
 		method: "DELETE"
