@@ -52,15 +52,6 @@
   "events": [
     {
       "typeId": 1,
-      "dateAndTime": "1 sept 5 am",
-      "hostedBy": "Derek Lee Doughty",
-      "eventDescription": "Just the easy trail for a warm up.",
-      "eventTitle": "Camelback Hike",
-      "where": "Main Trail Head",
-      "id": 1
-    },
-    {
-      "typeId": 1,
       "dateAndTime": "22 august 6am",
       "hostedBy": "Tammy Lynn",
       "eventDescription": "We are gonna race to the top.  Be hydrated!",
@@ -103,24 +94,6 @@
       "eventTitle": "Papago Park MTN run",
       "where": "Woodglenn park gazebo",
       "id": 7
-    },
-    {
-      "typeId": 1,
-      "dateAndTime": "october 2nd at 5am",
-      "hostedBy": "Jack Bear",
-      "eventDescription": "Just a two mile hike for fun with friends.",
-      "eventTitle": "Superstition hike",
-      "where": "Main trail head",
-      "id": 8
-    },
-    {
-      "typeId": 1,
-      "dateAndTime": "thurs: 10 - 12",
-      "hostedBy": "Ryan M.",
-      "eventDescription": "Final presentations... don't cry or soil ya self",
-      "eventTitle": "PARTY TIME!!",
-      "where": "Rockit Bootcamp",
-      "id": 9
     }
   ],
   "types": [

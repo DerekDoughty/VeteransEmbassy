@@ -62,16 +62,4 @@ $('.sign-in').on('submit', function(event){
 
 })
 
-	
 
-//add the add events nav on the actual events list page.
-//fix the footer to the events list page.
-//create extra JS pages for the additional events (if i have time)
-//Go through the whole site and nit pick the small stuff.
-
-//once they are signed in use window.location and give it the
-//name of the html location.
-//window.location = ""... use like a variable.
-//use a jquery .get to get the events from the local host 3000/events
-//create my template using handle bars and pass my jquery events 
-//into the template.  

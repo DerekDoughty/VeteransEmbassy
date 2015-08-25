@@ -42,7 +42,7 @@
 			<span>U.S. NAVY</span>	
 		</div>
 
-					<script id="hiking-template" type="text/x-handlebars-template">
+					<script id="hiking-template" type="text/x-handlebars-template" class"created-events">
 					{{#each this}}
 					<div class="hiking-media-obj">
 						<img src="pictures/hikerSign.jpg">
@@ -52,10 +52,11 @@
 							<p>WHEN: {{dateAndTime}}</p>
 							<p>WHERE: {{where}}</p>
 							<p>EVENT: {{eventDescription}}</p>
+							<form class="delete-events">
+							<input type="hidden" value="{{id}}">
+								<button type="submit" class="hiking-delete-button">DELETE</button>
+							</form>	
 						</div>
-					<form>
-						<button type="submit" class="hiking-delete-button">DELETE</button>
-					</form>	
 					</div>
 					{{/each}}
 					</script>

@@ -1,10 +1,6 @@
 $(function(){
 
 var $post = $.post
-// $('#add-event-button').on('submit', function(){
-// 	console.log('worked');
-// })
-
 
 var hikeInfo = {
 		eventTitle: 'Camelback Moutain',
@@ -41,10 +37,25 @@ events.fetch()
 		console.log(hikingEvents)
 
 	})
+
+$('.hiking-events').on('submit','.delete-events', function(event){
+	event.preventDefault()	
+	var deleteEvent = $(this).find('input').val()
+	console.log(deleteEvent)
+	$.ajax({
+		url: "http://localhost:3000/events/" + deleteEvent,
+		method: "DELETE"
+	}) 
+	.done(function (){
+		window.location.reload()
+	})     
+})
+
 })
 
 
-//get the template working. the button should be a form
-// so when i click on it, it will submit. 
-// it will perform and Jquery event (prevent default) do an ajax
 // with an http delete method. $.ajax url and the method. (.delete)
+// do my jquery selector on $(this).find('input').val()
+// make line 61 into a variable and concatinate that variable onto the URL
+// any time i want to add to the page from JS, i need to use delegated events
+// since the template isnt in the DOM yet.  

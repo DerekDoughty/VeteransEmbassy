@@ -377,6 +377,14 @@ Hiking Page
 	background-position-x: -330px;
 }
 
+.hiking-delete-button {
+	border-radius: 3px;
+	background-color: rgba(179, 7, 19, 0.3);
+	margin-left: 210px;
+	margin-bottom: 0px;
+}
+
+
 
 
 
