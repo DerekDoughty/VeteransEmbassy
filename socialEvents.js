@@ -2,7 +2,7 @@ $(function(){
 
 var $post = $.post
 
-var codingInfo = {
+var socialInfo = {
 		eventTitle: 'Java Script!',
 		hostedBy: 'Derek Lee Doughty',
 		when: '28nd August 2015 at 6pm',
@@ -10,10 +10,10 @@ var codingInfo = {
 		eventDescription: 'Computer Coding'
 	}
 
-	var coding = $('#coding-template').html()
-	var codingTmpl = Handlebars.compile(coding)
+	var social = $('#social-template').html()
+	var socialTmpl = Handlebars.compile(social)
 
-var CodingEventModel = Backbone.Model.extend({
+var socialEventModel = Backbone.Model.extend({
 	url:function(){
 		var baseURL = 'http://localhost:3000/events'
 
@@ -22,24 +22,24 @@ var CodingEventModel = Backbone.Model.extend({
   		baseUrl = baseUrl + this.id
 
   	}
-  	return baseUrl + '?typeId=2'
+  	return baseUrl + '?typeId=6'
   }
 })
-var CodingEventCollection = Backbone.Collection.extend({
+var SocialEventCollection = Backbone.Collection.extend({
   // url: 'http://localhost:3000/events?typeId=2',
-    url: 'http://localhost:3000/type/2/events',
+    url: 'http://localhost:3000/type/6/events',
 
-	model: CodingEventModel
+	model: socialEventModel
 })
 
-var events = new CodingEventCollection
+var events = new SocialEventCollection
 events.fetch()
-.done(function (codingEvents){
-		$('main').append(codingTmpl(codingEvents.reverse()))
+.done(function (socialEvents){
+		$('main').append(socialTmpl(socialEvents.reverse()))
 
 	})
 
-$('.coding-events').on('submit','.delete-events', function(event){
+$('.social-events').on('submit','.delete-events', function(event){
 	event.preventDefault()	
 	var deleteEvent = $(this).find('input').val()
 	$.ajax({

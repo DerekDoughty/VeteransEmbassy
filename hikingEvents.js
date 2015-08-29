@@ -1,15 +1,5 @@
 $(function(){
 
-var $post = $.post
-
-var hikeInfo = {
-		eventTitle: 'Camelback Moutain',
-		hostedBy: 'Derek Lee Doughty',
-		when: '22nd August 2015 at 8am',
-		where: 'Main Gazebo at the trailhead sucka',
-		eventDescription: 'hiking'
-	}
-
 	var hiking = $('#hiking-template').html()
 	var hikingTmpl = Handlebars.compile(hiking)
 
@@ -50,10 +40,4 @@ $('.hiking-events').on('submit','.delete-events', function(event){
 })
 
 })
-
-
-// with an http delete method. $.ajax url and the method. (.delete)
-// do my jquery selector on $(this).find('input').val()
-// make line 61 into a variable and concatinate that variable onto the URL
-// any time i want to add to the page from JS, i need to use delegated events
-// since the template isnt in the DOM yet.  
+ 

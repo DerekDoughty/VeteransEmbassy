@@ -26,12 +26,12 @@
 					<a href="suicideHotline.html" id="suicide-hotline">SUICIDE HOTLINE</a>
 				</nav>
 			</header>
-			<div class="coding-hero-picture">
+			<div class="camping-hero-picture">
 				<!-- <img src="pictures/OrganPipe1.jpg"> -->
 			</div>
 	</div>
-			<main class="coding-events">
-				<!-- <div class="hiking-handlebars"> -->
+			<main class="camping-events">
+				<!-- <div class="camping-handlebars"> -->
 				<!-- </div> -->
 			</main>
 		<div class="branches">	
@@ -41,11 +41,11 @@
 			<span>U.S. NAVY</span>	
 		</div>
 
-					<script id="coding-template" type="text/x-handlebars-template" class"created-events">
+					<script id="camping-template" type="text/x-handlebars-template" class"created-events">
 					{{#each this}}
-					<div class="coding-media-obj">
-						<img src="pictures/computerSign.jpg">
-						<div class="coding-details">
+					<div class="camping-media-obj">
+						<img src="pictures/campingSign.png">
+						<div class="camping-details">
 							<h2>{{eventTitle}}</h2>
 							<p>HOST: {{hostedBy}}</p>
 							<p>WHEN: {{dateAndTime}}</p>
@@ -53,12 +53,12 @@
 							<p>EVENT: {{eventDescription}}</p>
 							<form class="delete-events">
 							<input type="hidden" value="{{id}}">
-								<button type="submit" class="coding-delete-button">DELETE</button>
+								<button type="submit" class="camping-delete-button">DELETE</button>
 							</form>	
 						</div>
 					</div>
 					{{/each}}
 					</script>
-	<script src="codingEvents.js"></script>
+	<script src="campingEvents.js"></script>
 </body>
 </html>

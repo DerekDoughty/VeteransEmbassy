@@ -7,22 +7,10 @@
       "password": "DerekLee"
     },
     {
-      "userName": "kevin",
-      "email": "kevin.com",
-      "password": "kal;djfal;",
-      "id": 2
-    },
-    {
       "userName": "Tammy Doughty",
       "email": "TDoughty@aerotek.com",
       "password": "Doughty",
       "id": 3
-    },
-    {
-      "userName": "",
-      "email": "",
-      "password": "",
-      "id": 4
     },
     {
       "userName": "Chuck Norris",
@@ -47,18 +35,27 @@
       "email": "rmedina423",
       "password": "chancho1",
       "id": 8
+    },
+    {
+      "userName": "Derek Doughty",
+      "email": "doughty326@gmail.com",
+      "password": "Doughty",
+      "id": 10
+    },
+    {
+      "userName": "Ryan Morales",
+      "email": "RyRy@Ryan.com",
+      "password": "stuff",
+      "id": 11
+    },
+    {
+      "userName": "Derek Doughty",
+      "email": "doughty326@gmail.com",
+      "password": "Doughty",
+      "id": 12
     }
   ],
   "events": [
-    {
-      "typeId": 1,
-      "dateAndTime": "0700hrs 29 aug",
-      "hostedBy": "Derek Lee Doughty",
-      "eventDescription": "We are gonna meet up at the Tempe Beach park entrance and then walk over to \"A\" Mountain from there to get our hike on!",
-      "eventTitle": "\"A\" MOUNTAIN",
-      "where": "Tempe beach Park",
-      "id": 1
-    },
     {
       "typeId": 2,
       "dateAndTime": "1230-330 august 31st",
@@ -67,6 +64,105 @@
       "eventTitle": "Rockit coding",
       "where": "1601 Fountainhead Pkwy",
       "id": 2
+    },
+    {
+      "typeId": 1,
+      "dateAndTime": "2nd Sept. @ 8am",
+      "hostedBy": "Jack Doughty",
+      "eventDescription": "Bring a veteran buddy to enjoy this hike with us.  Please bring more water than you think that you will need.",
+      "eventTitle": "Camelback Mountain",
+      "where": "Camelback main trailhead",
+      "id": 3
+    },
+    {
+      "typeId": 2,
+      "dateAndTime": "12pm - 2pm Oct 2nd",
+      "hostedBy": "Tammy Lynn",
+      "eventDescription": "Just gonna do a JS study session for everyone to hone their skills or maybe help another vet buddy.",
+      "eventTitle": "JS Coding",
+      "where": "Phoenix library Ironwood Branch",
+      "id": 4
+    },
+    {
+      "typeId": 3,
+      "dateAndTime": "20 -23 Sept.",
+      "hostedBy": "Jack Doughty",
+      "eventDescription": "Just some good ol' vets getting together to do some fishing, grilling and maybe drink a few to many beers.",
+      "eventTitle": "Camping and Fishing",
+      "where": "Reservation Lake AZ",
+      "id": 5
+    },
+    {
+      "typeId": 4,
+      "dateAndTime": "Noon - 3pm sept. 13",
+      "hostedBy": "Noel Peterson",
+      "eventDescription": "Please bring all of your own equipment.  Our dives will be shallow and bring a Veteran friend if you want to.  We WILL be buddy diving.",
+      "eventTitle": "Scuba Diving",
+      "where": "Canyon Lake",
+      "id": 6
+    },
+    {
+      "typeId": 3,
+      "dateAndTime": "20 - 22 Oct. 2015",
+      "hostedBy": "Adam Cole",
+      "eventDescription": "This plenty of time to plan.  The park is Beautiful with lots of great trails . The only down side is that is infested with drug cartels. The bark is on the border with Mexico.  Who cares! Lets enjoy the scenery.",
+      "eventTitle": "Organ Pipe Camp!",
+      "where": "Organ Pipe National Monument",
+      "id": 7
+    },
+    {
+      "typeId": 2,
+      "dateAndTime": "Every Day",
+      "hostedBy": "Brad Westfall",
+      "eventDescription": "I'm going to dominate your CSS.",
+      "eventTitle": "CSS tutorial",
+      "where": "Rockit Classroom",
+      "id": 9
+    },
+    {
+      "typeId": 5,
+      "dateAndTime": "4pm till finished today",
+      "hostedBy": "Richi Jeffery",
+      "eventDescription": "We are gonna do the WOD till we puke.  Time to get fit !",
+      "eventTitle": "CrossFit",
+      "where": "Tempe Crossfit",
+      "id": 10
+    },
+    {
+      "typeId": 6,
+      "dateAndTime": "7pm til close this saturday",
+      "hostedBy": "Ryan Medina",
+      "eventDescription": "We are gonna pub crawl with our vet friends.  Make sure you have a DD lined up or and Uber.  ",
+      "eventTitle": "Tempe Pub Crawl",
+      "where": "Handlebar on Mill Ave in Tempe",
+      "id": 11
+    },
+    {
+      "typeId": 8,
+      "dateAndTime": "4pm - 6pm",
+      "hostedBy": "Andrew Murphy",
+      "eventDescription": "Lets get ready for this upcoming exam.",
+      "eventTitle": "Pre WW2 history",
+      "where": "Rockit Study Hall",
+      "id": 13
+    },
+    {
+      "typeId": 7,
+      "dateAndTime": "30 august - 31 august",
+      "hostedBy": "Kevin Lanni",
+      "eventDescription": "Just a slow cruise up north with some friends. ",
+      "eventTitle": "Weekend Sedona ride",
+      "where": "From Rockit campus to Sedona",
+      "id": 14
+    },
+    {
+      "typeId": 2,
+      "dateAndTime": "Today",
+      "hostedBy": "Derek Lee",
+      "eventDescription": "PResentation",
+      "eventTitle": "code",
+      "where": "Rockit",
+      "id": 15
     }
   ],
   "types": [
@@ -77,6 +173,30 @@
     {
       "type": "computerCoding",
       "id": 2
+    },
+    {
+      "type": "camping",
+      "id": 3
+    },
+    {
+      "type": "outdoorFun",
+      "id": 4
+    },
+    {
+      "type": "fitness",
+      "id": 5
+    },
+    {
+      "type": "socialEvents",
+      "id": 6
+    },
+    {
+      "type": "bikerClub",
+      "id": 7
+    },
+    {
+      "type": "studyGroup",
+      "id": 8
     }
   ]
 }
